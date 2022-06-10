@@ -9546,6 +9546,8 @@ h6,
     margin-top: -100px !important;
     z-index: 1;
   }
+
+  
 }
 
 .testimonial-carousel .owl-dots {
@@ -9606,6 +9608,10 @@ tr td {
   margin: 0;
 }
 
+.contact-info-dua {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   .logo {
     width: 100px;
@@ -9648,5 +9654,13 @@ tr td {
   .responsive {
     float: left;
     width: 50%;
+  }
+
+  .contact-info {
+    display: none;
+  }
+
+  .contact-info-dua {
+    display: flex;
   }
 }
